@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wizarddocx"
-version = "0.1.1"
+version = "1.0.0"
 description = "Text extraction from Microsoft Word files. Parses Word documents natively and can optionally run local OCR with Tesseract for embedded images or scanned pages. Supports page selection and bytes input. Legacy .doc is read-only and OCR is not available."
 license = { file = "LICENSE" }
 
