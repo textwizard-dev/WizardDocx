@@ -1,0 +1,77 @@
+/* Commenta le variabili per i colori */
+:root {
+    /* --color-accent-primary: #61afef; */
+    /* --color-accent-secondary: #c678dd; */
+    /* --color-background-primary: #1e1e2e; */
+    /* --color-background-secondary: #282c34; */
+    /* --color-foreground-primary: #ffffff; */
+    /* --color-foreground-secondary: #abb2bf; */
+}
+
+/* Disabilita le regole aggiuntive */
+div.highlight > .caption {
+    /* font-size: 0.9em; */
+    /* font-weight: normal; */
+    /* color: #6a737d; */
+    /* margin-bottom: 0.5em; */
+    /* border-bottom: 1px solid #e1e4e8; */
+    /* padding-bottom: 0.2em; */
+}
+
+/* Barra laterale */
+/* .wy-nav-side {
+    background: var(--color-background-primary);
+    color: var(--color-foreground-primary);
+} */
+
+/* Barra di ricerca */
+/* .wy-side-nav-search {
+    background-color: var(--color-background-secondary);
+    border-bottom: 2px solid var(--color-accent-primary);
+} */
+
+/* Input nella barra di ricerca */
+/* .wy-side-nav-search input {
+    color: var(--color-foreground-primary);
+    border: 1px solid var(--color-accent-primary);
+    background-color: var(--color-background-secondary);
+} */
+
+/* Link nella barra laterale */
+/* .wy-nav-side li a {
+    color: var(--color-accent-primary);
+} */
+
+/* .wy-nav-side li a:hover {
+    color: var(--color-accent-secondary);
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+} */
+
+/* Intestazioni */
+/* .rst-content h1 {
+    color: var(--color-accent-secondary);
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-accent-primary);
+    margin-bottom: 10px;
+} */
+
+/* Pulsanti */
+/* button, .btn {
+    background-color: var(--color-accent-primary);
+    border: none;
+    color: var(--color-foreground-primary);
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+} */
+
+/* button:hover, .btn:hover {
+    background-color: var(--color-accent-secondary);
+} */
+
+
+
+}

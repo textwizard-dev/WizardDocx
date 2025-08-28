@@ -1,0 +1,4 @@
+exclude tests/*
+exclude assets/*
+exclude README.md
+global-exclude *.pyd *.so

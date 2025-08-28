@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wizarddocx"
+version = "0.1.0"
+description = "Text extraction from Microsoft Word files. Parses Word documents natively and can optionally run local OCR with Tesseract for embedded images or scanned pages. Supports page selection and bytes input. Legacy .doc is read-only and OCR is not available."
+license = { file = "LICENSE" }
+
+readme = { file = "README.md", content-type = "text/markdown" }
+
+authors = [{ name = "Mattia Rubino", email = "textwizard.dev@gmail.com" }]
+requires-python = ">=3.9"
+keywords = [
+  "docx",
+  "microsoft-word",
+  "word",
+  "text-extraction",
+  "document-processing",
+  "ocr",
+  "tesseract",
+  "doc"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Intended Audience :: Developers",
+  "Topic :: Text Processing",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+]
+
+dependencies = [
+  "pip>=2.3.1",
+  "pytesseract>=0.3.13",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/textwizard-dev/wizarddocx"
+Source = "https://github.com/textwizard-dev/wizarddocx"
+Documentation = "https://wizarddocx.readthedocs.io/en/latest/"
+
+[tool.setuptools]
+include-package-data = true
+license-files = ["LICENSE"] 
+
+[tool.setuptools.packages.find]
+include = ["wizarddocx", "wizarddocx.*"]
+
