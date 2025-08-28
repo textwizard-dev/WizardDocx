@@ -1,6 +1,6 @@
-==========
+===========
 Wizard Docx
-==========
+===========
 
 .. figure:: _static/img/wizarddocxBanner.png
    :alt: wizarddocx Banner
