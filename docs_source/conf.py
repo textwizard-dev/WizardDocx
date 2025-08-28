@@ -44,7 +44,7 @@ html_favicon = "_static/img/logo_textwizard.png"
 html_css_files = ["css/custom.css"]
 
 exclude_patterns = ["_build","Thumbs.db",".DS_Store"]
-master_doc = "intro"
+master_doc = "index"
 rst_prolog = f"""
 .. |PYPI_URL| replace:: {pypi_url}
 .. |GITHUB_URL| replace:: {github_url_subst}

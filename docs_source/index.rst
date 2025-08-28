@@ -134,8 +134,8 @@ Required only when passing ``bytes``. Indicates the file type.
 .. code-block:: python
 
    import wizarddocx as wd
-   png_bytes = open("img.doc", "rb").read()
-   text = wd.extract_text(png_bytes, extension="doc")
+   doc_bytes = open("img.doc", "rb").read()
+   text = wd.extract_text(doc_bytes, extension="doc")
 
 .. warning::
    Passing bytes without ``extension`` raises a validation error.
@@ -180,7 +180,7 @@ Enable OCR for raster content and scanned documents. ``language_ocr`` controls t
 .. code-block:: python
 
    import wizarddocx as wd
-   pdf_txt = wd.extract_text("contract_scanned.docx", ocr=True, language_ocr="ita")
+   docx_txt = wd.extract_text("contract_scanned.docx", ocr=True, language_ocr="ita")
 
 Returns
 =======
